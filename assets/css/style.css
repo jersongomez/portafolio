@@ -408,12 +408,12 @@ button:focus {
     left: 25px;
     bottom: -24px;
 }
-/* 7 -------- Portfolio Section Styles ---------*/
+/* 7 -------- portafolio Section Styles ---------*/
 
-.portfolio {
+.portafolio {
     background-color: #f9f9f9;
 }
-.portfolio-bottom .section-description {
+.portafolio-bottom .section-description {
     padding: 0px 25%;
     margin-bottom: 0px;
 }
@@ -616,7 +616,7 @@ button:focus {
 
 .contact {
     background-color: #f9f9f9;
-    position: relative;
+    position: relative;    
 }
 .google-map-container {
     width: 100%;
@@ -1087,18 +1087,27 @@ footer {
 .footer-social .section-padding {
     padding: 60px 0px;
 }
-.footer-social .col-xs-4 {
+.footer-social .col-xs-2 {
     color: #ffffff;
     padding: 0px;
 }
-.footer-social .col-xs-4:first-child {
+.footer-social .col-xs-2:first-child {
     background-color: #3b5998;
 }
-.footer-social .col-xs-4:nth-child(2) {
+.footer-social .col-xs-2:nth-child(2) {
     background-color: #00bdec;
 }
-.footer-social .col-xs-4:nth-child(3) {
+.footer-social .col-xs-2:nth-child(3) {
     background-color: #e45c8f;
+}
+.footer-social .col-xs-2:nth-child(4) {
+    background-color: #3b5998;
+}
+.footer-social .col-xs-2:nth-child(5) {
+    background-color: #cb0a0a;
+}
+.footer-social .col-xs-2:nth-child(6) {
+    background-color: #3b5998;
 }
 .footer-social .social-icon {
     font-size: 2.8em;
@@ -1109,7 +1118,7 @@ footer {
 }
 .social-item .about-item {
     font-size: 1.25em;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 /* 16.1 ------ Footer Top -------*/
 
@@ -1317,4 +1326,16 @@ footer .widget-title {
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
+}
+
+.whatsapp{
+    color: #2da745;
+}
+
+.social-item a{
+    color: #ffffff;
+}
+
+.social-item a:hover{
+    color: #111111;
 }
