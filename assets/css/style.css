@@ -1339,3 +1339,11 @@ footer .widget-title {
 .social-item a:hover{
     color: #111111;
 }
+
+.image-popup-vertical-fit img{
+    max-height: 40px;
+}
+
+.tab-image img{
+    width: 100%;
+}
