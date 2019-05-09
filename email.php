@@ -15,7 +15,7 @@ if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)):
     $header .= 'X-Mailer: PHP/' . phpversion();
     // Contact subject
     $subject = "Portafolio";
-    // Contact Message
+    // Contact Message j
     $message .= 'Name: ' . $_REQUEST['name'] . "\n";
     $message .= 'Email: ' . $_REQUEST['email'] . "\n";
     $message .= 'Message: ' . $_REQUEST['message'];
